@@ -1,0 +1,12 @@
+html, body {
+    background-color: #111A23;
+    color: #AAB3BC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#root{
+    height: 61vh;
+}

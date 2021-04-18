@@ -1,0 +1,15 @@
+.circular-img{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+
+.profile-container{
+    align-items: center;
+    border-right-style: solid;
+    border-color: #182129;
+    height: 100%;
+    padding: 10%;
+    text-align: center;
+    width: 20%;
+}
