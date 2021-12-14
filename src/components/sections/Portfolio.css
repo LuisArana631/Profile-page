@@ -17,6 +17,8 @@
 
 .portfolio-item {
     background-color: rgb(26, 31, 68);
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     float: left;
