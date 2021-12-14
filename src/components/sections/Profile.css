@@ -1,0 +1,19 @@
+.left-div {
+    background-color: rgb(11, 13, 29);
+    float: left;
+    width: 50%;
+    height: 80vh;
+    border-radius: 24px;
+    box-shadow: 0 10px 15px rgb(0, 3, 20);
+    color: #fff;
+}
+
+.right-div {
+    background-color: rgb(11, 13, 29);
+    width: 50%;
+    float: left;
+    height: 80vh;
+    border-radius: 24px;
+    box-shadow: 0 10px 15px rgb(0, 3, 20);
+    color: #fff;
+}

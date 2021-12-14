@@ -1,0 +1,104 @@
+
+
+.sidebar{
+    z-index: 9999;
+    position: absolute;
+    width: 10vh;
+    height: 20vh;
+    background-color: rgb(11, 13, 29);
+    border-radius: 35px;
+    box-shadow: 0 10px 15px rgb(0, 3, 20);
+    right: 10px;
+}
+
+.sidebar ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    position: relative;
+    list-style: none;
+    z-index: 1;
+    width: 66px;
+    height: 61px;
+}
+
+.sidebar ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: rgb(67, 84, 185);
+    font-weight: 500;
+}
+
+.sidebar ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.sidebar ul li.active a .icon{
+    color: rgb(11, 13, 29);
+}
+
+.sidebar ul li a .title{
+    position: absolute;
+    left: -50px;
+    transform: translate(-50%, 15%);
+    background-color: #fff;
+    width: auto; 
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgb(0, 3, 20);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sidebar ul li:hover a .title{
+    opacity: 1;
+    visibility: visible;
+}
+
+.sidebar ul li a .title::before{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    right: -5px;
+    top: 30%;
+    transform: rotate(45deg) translateX(-20%);
+    border-radius: 2px;
+}
+
+.sidebar ul .indicator {
+    position: absolute;
+    top: 6px;
+    left: 1px;
+    width: 66px;
+    height: 61px;
+    transition: 0.5s;
+}
+
+.sidebar ul .indicator::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(67, 84, 185);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
