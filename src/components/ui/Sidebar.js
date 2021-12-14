@@ -1,8 +1,8 @@
 import React from 'react'
 import './Sidebar.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faIdBadge, faFileCode } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faIdBadge, faFileCode } from '@fortawesome/free-regular-svg-icons';
 
 export const Sidebar = () => {
     return (
