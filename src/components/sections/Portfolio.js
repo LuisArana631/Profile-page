@@ -13,21 +13,21 @@ export const Portfolio = () => {
                     <hr/>
                     <div className="pages-portfolio">
                         <div className="portfolio-item">
-                            <a href="https://luisarana631.github.io/Pokedex-React/">
+                            <a className="enlace" href="https://luisarana631.github.io/Pokedex-React/">
                                 <span className="icon-port"><FontAwesomeIcon icon={faReact} /></span>
                                 <span className="item-port-text">Pokedex using React (REDUX)</span>
                             </a>
                         </div>         
 
                         <div className="portfolio-item">
-                            <a href="https://luisarana631.github.io/MatrioshTS_Traductor/home">
+                            <a className="enlace" href="https://luisarana631.github.io/MatrioshTS_Traductor/home">
                                 <span className="icon-port"><FontAwesomeIcon icon={faJs} /></span>
                                 <span className="item-port-text">Matriosh TS using Ionic</span>
                             </a>
                         </div>                                
 
                         <div className="portfolio-item">
-                            <a href="https://luisarana631.github.io/Energy-Blog-IT3">
+                            <a className="enlace" href="https://luisarana631.github.io/Energy-Blog-IT3">
                                 <span className="icon-port"><FontAwesomeIcon icon={faAngular} /></span>
                                 <span className="item-port-text">Energies blog using Angular</span>
                             </a>

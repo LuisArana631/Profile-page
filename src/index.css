@@ -49,3 +49,8 @@ body {
     height: 100%;
     width: 90%;
 }
+
+.enlace {
+    text-decoration: none;
+    color: white;
+}

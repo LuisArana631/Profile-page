@@ -77,22 +77,22 @@ export const Profile = () => {
                             <hr/>
                             <div className="skills-div">
                                 <div className="skill-item">
-                                    <a href="https://www.linkedin.com/in/luis-arana-a44598191/">
+                                    <a className="enlace" href="https://www.linkedin.com/in/luis-arana-a44598191/">
                                         <span className="icon-port"><FontAwesomeIcon icon={faLinkedin} /></span>
                                     </a>
                                 </div> 
                                 <div className="skill-item">
-                                    <a href="https://www.youtube.com/channel/UCglXczWYAsCmJmY_iTXzSxQ">
+                                    <a className="enlace" href="https://www.youtube.com/channel/UCglXczWYAsCmJmY_iTXzSxQ">
                                         <span className="icon-port"><FontAwesomeIcon icon={faYoutube} /></span>
                                     </a>
                                 </div> 
                                 <div className="skill-item">
-                                    <a href="https://www.instagram.com/luis_fer631/">
+                                    <a className="enlace" href="https://www.instagram.com/luis_fer631/">
                                         <span className="icon-port"><FontAwesomeIcon icon={faInstagram} /></span>
                                     </a>
                                 </div> 
                                 <div className="skill-item">
-                                    <a href="https://mailto:luarana631@gmail.com">
+                                    <a className="enlace" href="https://mailto:luarana631@gmail.com">
                                         <span className="icon-port"><FontAwesomeIcon icon={faGoogle} /></span>
                                     </a>
                                 </div> 
