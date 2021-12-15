@@ -2,11 +2,11 @@ import React from 'react';
 import './Portfolio.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
 export const Portfolio = () => {
     return (
-        <div className="section">
+        <div id="portfolio" className="section">
             <div className="content">
                 <div className="portfolio-div">
                     <h2>Portfolio</h2>
@@ -17,7 +17,14 @@ export const Portfolio = () => {
                                 <span className="icon-port"><FontAwesomeIcon icon={faReact} /></span>
                                 <span className="item-port-text">Pokedex using React (REDUX)</span>
                             </a>
-                        </div>                              
+                        </div>         
+
+                        <div className="portfolio-item">
+                            <a href="https://luisarana631.github.io/MatrioshTS_Traductor/home                     ">
+                                <span className="icon-port"><FontAwesomeIcon icon={faJs} /></span>
+                                <span className="item-port-text">Matriosh TS using Ionic</span>
+                            </a>
+                        </div>                                
                     </div>                    
                 </div>
             </div>

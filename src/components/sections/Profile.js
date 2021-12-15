@@ -8,7 +8,7 @@ import { faReact, faLinkedin, faYoutube, faInstagram, faGoogle, faAngular, faNod
 
 export const Profile = () => {
     return (
-        <div className="section">
+        <div id="profile" className="section">
             <div className="content">
                 <div className="left-div">    
                     <img className="profile-pic" src={profilePicture} alt="Profile"/>
