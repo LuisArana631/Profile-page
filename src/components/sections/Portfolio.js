@@ -2,7 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
 export const Portfolio = () => {
     return (
@@ -20,11 +20,19 @@ export const Portfolio = () => {
                         </div>         
 
                         <div className="portfolio-item">
-                            <a href="https://luisarana631.github.io/MatrioshTS_Traductor/home                     ">
+                            <a href="https://luisarana631.github.io/MatrioshTS_Traductor/home">
                                 <span className="icon-port"><FontAwesomeIcon icon={faJs} /></span>
                                 <span className="item-port-text">Matriosh TS using Ionic</span>
                             </a>
                         </div>                                
+
+                        <div className="portfolio-item">
+                            <a href="https://luisarana631.github.io/Energy-Blog-IT3">
+                                <span className="icon-port"><FontAwesomeIcon icon={faAngular} /></span>
+                                <span className="item-port-text">Energies blog using Angular</span>
+                            </a>
+                        </div>                                
+
                     </div>                    
                 </div>
             </div>

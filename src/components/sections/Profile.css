@@ -9,9 +9,6 @@
     box-sizing: border-box;
     padding: 3%;
     margin-right: 5%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .right-div {
@@ -24,15 +21,17 @@
     color: #fff;
     box-sizing: border-box;
     padding: 3%;
+    display:flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    
 }
-
 
 .skills-div {
     padding: 2%;
+}
+
+.div-container-info {
+    width: 100%;
 }
 
 .skill-item {
@@ -49,9 +48,13 @@
     margin-right: 1%;
     margin-bottom: 1%; 
     font-size: xx-large;    
+    box-shadow: 5px 7px 21px -8px rgba(0,0,0,1);
+    -webkit-box-shadow: 5px 7px 21px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 7px 21px -8px rgba(0,0,0,1);
 }
 
 .profile-pic {
+    left:25%;
     width: 50%;
     height: 50%;
     object-fit: cover;
