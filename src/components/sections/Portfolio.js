@@ -12,22 +12,22 @@ export const Portfolio = () => {
                     <h2>Portfolio</h2>
                     <hr/>
                     <div className="pages-portfolio">
-                        <div className="portfolio-item">
-                            <a className="enlace" href="https://luisarana631.github.io/Pokedex-React/">
+                        <div className="portfolio-item action-btn">
+                            <a className="enlace" rel="noreferrer" target="_blank" href="https://luisarana631.github.io/Pokedex-React/">
                                 <span className="icon-port"><FontAwesomeIcon icon={faReact} /></span>
                                 <span className="item-port-text">Pokedex using React (REDUX)</span>
                             </a>
                         </div>         
 
-                        <div className="portfolio-item">
-                            <a className="enlace" href="https://luisarana631.github.io/MatrioshTS_Traductor/home">
+                        <div className="portfolio-item action-btn">
+                            <a className="enlace" rel="noreferrer" target="_blank" href="https://luisarana631.github.io/MatrioshTS_Traductor/home">
                                 <span className="icon-port"><FontAwesomeIcon icon={faJs} /></span>
                                 <span className="item-port-text">Matriosh TS using Ionic</span>
                             </a>
                         </div>                                
 
-                        <div className="portfolio-item">
-                            <a className="enlace" href="https://luisarana631.github.io/Energy-Blog-IT3">
+                        <div className="portfolio-item action-btn">
+                            <a className="enlace" rel="noreferrer" target="_blank" href="https://luisarana631.github.io/Energy-Blog-IT3">
                                 <span className="icon-port"><FontAwesomeIcon icon={faAngular} /></span>
                                 <span className="item-port-text">Energies blog using Angular</span>
                             </a>

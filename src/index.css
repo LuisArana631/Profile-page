@@ -51,6 +51,28 @@ body {
 }
 
 .enlace {
+    position: relative;
+    z-index: 1;
     text-decoration: none;
     color: white;
 }
+
+.action-btn::before {
+    cursor: pointer;
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 45%; 
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgb(38, 44, 95);
+    transition: width 0.7s, height 0.7s;
+}
+
+.action-btn:hover::before {
+    width: 500px;
+    height: 500px;
+}
+

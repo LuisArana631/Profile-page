@@ -4,22 +4,28 @@ import './Profile.css';
 import profilePicture from '../../assets/img/foto.jpeg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faLinkedin, faYoutube, faInstagram, faGoogle, faAngular, faNodeJs, faGithub, faHtml5, faCss3, faDocker, faMarkdown } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faLinkedin, faYoutube, faGoogle, faNodeJs, faGithub, faHtml5, faCss3, faDocker, faMarkdown, faJs } from '@fortawesome/free-brands-svg-icons';
 
 export const Profile = () => {
     return (
         <div id="profile" className="section">
             <div className="content">
                 <div className="left-div">    
-                    <img className="profile-pic" src={profilePicture} alt="Profile"/>
-                    
-                    <h2><b>Luis Arana</b></h2>
-                    <br/>
-                    <hr/>
-                    <br/>
-                    <p>
-                        I'm studying Systems Engineering at University of San Carlos of Guatemala, exploring new technologies and developing software solutions using quick hacks. I'm also sharing my knowledge in youtube 😁.
-                    </p>
+                    <div className="div-container-info">
+                        <img className="profile-pic" src={profilePicture} alt="Profile"/>
+                        
+                        <h2><b>Luis Arana</b></h2>
+                        <br className="br-display"/>
+                        <hr/>
+                        <br/>
+                        <p>
+                            I'm studying Systems Engineering at University of San Carlos of Guatemala, exploring new technologies and developing software solutions using quick hacks. I'm also sharing my knowledge in youtube 😁.
+                        </p>
+                        <br className="br-display"/>
+                        <p>
+                            <b>Email:</b> luarana631@gmail.com
+                        </p>
+                    </div>
                 </div>
                 <div className="right-div">
                     
@@ -33,7 +39,7 @@ export const Profile = () => {
                                 </div> 
 
                                 <div className="skill-item">
-                                    <span className="icon-port"><FontAwesomeIcon icon={faAngular} /></span>                                
+                                    <span className="icon-port"><FontAwesomeIcon icon={faJs} /></span>                                
                                 </div> 
 
                                 <div className="skill-item">
@@ -76,23 +82,23 @@ export const Profile = () => {
                             <h3>Connect with Me</h3>
                             <hr/>
                             <div className="skills-div">
-                                <div className="skill-item">
-                                    <a className="enlace" href="https://www.linkedin.com/in/luis-arana-a44598191/">
+                                <div className="skill-item action-btn">
+                                    <a className="enlace" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/luis-arana-a44598191/">
                                         <span className="icon-port"><FontAwesomeIcon icon={faLinkedin} /></span>
                                     </a>
                                 </div> 
-                                <div className="skill-item">
-                                    <a className="enlace" href="https://www.youtube.com/channel/UCglXczWYAsCmJmY_iTXzSxQ">
+                                <div className="skill-item action-btn">
+                                    <a className="enlace" rel="noreferrer" target="_blank" href="https://www.youtube.com/channel/UCglXczWYAsCmJmY_iTXzSxQ">
                                         <span className="icon-port"><FontAwesomeIcon icon={faYoutube} /></span>
                                     </a>
                                 </div> 
-                                <div className="skill-item">
-                                    <a className="enlace" href="https://www.instagram.com/luis_fer631/">
-                                        <span className="icon-port"><FontAwesomeIcon icon={faInstagram} /></span>
-                                    </a>
+                                <div className="skill-item action-btn">
+                                    <a className="enlace" rel="noreferrer" target="_blank" href="https://www.instagram.com/luis_fer631/">
+                                        <span className="icon-port"><FontAwesomeIcon icon={faGithub} /></span>
+                                    </a>    
                                 </div> 
-                                <div className="skill-item">
-                                    <a className="enlace" href="https://mailto:luarana631@gmail.com">
+                                <div className="skill-item action-btn">
+                                    <a className="enlace" rel="noreferrer" target="_blank" href="https://mailto:luarana631@gmail.com">
                                         <span className="icon-port"><FontAwesomeIcon icon={faGoogle} /></span>
                                     </a>
                                 </div> 

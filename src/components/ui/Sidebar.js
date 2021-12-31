@@ -10,13 +10,13 @@ export const Sidebar = () => {
             <div className="sidebar">
                 <ul>
                     <li className="list active">
-                        <a href="/#profile">
+                        <a href="/Profile-page#profile">
                             <span className="icon"><FontAwesomeIcon icon={faIdBadge} /></span>
                             <span className="title">Profile</span>
                         </a>                    
                     </li>
                     <li className="list">
-                        <a href="/#portfolio">
+                        <a href="/Profile-page#portfolio">
                             <span className="icon"><FontAwesomeIcon icon={faFileCode}/></span>
                             <span className="title">Portfolio</span>
                         </a>
