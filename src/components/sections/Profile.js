@@ -70,11 +70,11 @@ export const Profile = () => {
                             </div>
                         </div>
                         
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+                        <br className="br-display"/>
+                        <br className="br-display"/>
+                        <br className="br-display"/>
+                        <br className="br-display"/>
+                        <br className="br-display"/>
                         <br/>
                         <br/>
 

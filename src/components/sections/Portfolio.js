@@ -10,7 +10,7 @@ export const Portfolio = () => {
             <div className="content">
                 <div className="portfolio-div">
                     <h2>Portfolio</h2>
-                    <hr/>
+                    <hr className="portfolio-title"/>
                     <div className="pages-portfolio">
                         <div className="portfolio-item action-btn">
                             <a className="enlace" rel="noreferrer" target="_blank" href="https://luisarana631.github.io/Pokedex-React/">
