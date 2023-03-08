@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sections {
+  margin-top: 70px;
+}
+
+.section {
+  height: 60em;
+}
+
+@media (max-width: 768px) {
+  .sections {
+    margin-top: 50px;
+  }
+}
