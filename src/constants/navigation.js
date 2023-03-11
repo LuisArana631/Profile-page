@@ -7,7 +7,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -40,
+      offset: -37,
       text: "Profile",
     },
     {
@@ -17,7 +17,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -40,
+      offset: -37,
       text: "Skills",
     },
     {
@@ -27,7 +27,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -40,
+      offset: -37,
       text: "Experience",
     },
     {
@@ -37,7 +37,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -40,
+      offset: -37,
       text: "Projects",
     },
     {
@@ -47,7 +47,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -40,
+      offset: -37,
       text: "Contact",
     },
   ],
@@ -59,7 +59,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -100,
+      offset: -85,
       text: "Profile",
     },
     {
@@ -69,7 +69,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -100,
+      offset: -85,
       text: "Skills",
     },
     {
@@ -79,7 +79,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -100,
+      offset: -85,
       text: "Experience",
     },
     {
@@ -99,7 +99,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -100,
+      offset: -85,
       text: "Contact",
     },
   ],  
