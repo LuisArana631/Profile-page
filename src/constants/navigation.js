@@ -8,7 +8,7 @@ module.exports = {
       smooth: true,
       duration: 400,
       offset: -37,
-      text: "Profile",
+      text: "About",
     },
     {
       className: "nav-item",
@@ -60,7 +60,7 @@ module.exports = {
       smooth: true,
       duration: 400,
       offset: -85,
-      text: "Profile",
+      text: "About",
     },
     {
       className: "nav-item",
@@ -89,7 +89,7 @@ module.exports = {
       spy: true,
       smooth: true,
       duration: 400,
-      offset: -100,
+      offset: -85,
       text: "Projects",
     },
     {

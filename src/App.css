@@ -1,10 +1,11 @@
 .container {
   display: flex;
   flex-direction: column;
+  background-color: #dadfdc;
 }
 
 .sections {
-  margin-top: 70px;
+  margin-top: 65px;
 }
 
 .section {

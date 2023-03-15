@@ -1,11 +1,15 @@
 import './Contact.css'
 import pdfFile from '../../../assets/content/cv.pdf'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const contacts = require('../../../constants/contacts')
 
 export const Contact = () => {
 
   const handleDownload = () => {
+    toast.success('CV Downloaded')
+
     const element = document.createElement('a')
     element.setAttribute('href', pdfFile)
     element.setAttribute('download', 'cv.pdf')
@@ -17,6 +21,7 @@ export const Contact = () => {
 
   return (
     <div className='section contact' id='contact'>
+      <ToastContainer />
       <div className='contact-info'>
         <h1 className='contact-title'>Get In Touch</h1>
         <p className='contact-desc'>Do not hesitate to contact me by mail or any social network.</p>

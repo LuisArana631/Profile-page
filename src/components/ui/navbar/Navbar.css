@@ -8,10 +8,22 @@
   align-items: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  height: 8%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  animation: slide-down 0.7s ease-out;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .nav-title {
