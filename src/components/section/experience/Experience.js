@@ -26,7 +26,7 @@ export const Experience = () => {
                 </div>
               </div>
             </div>
-          ))
+          )).reverse()
         }
         </div>
         <div className='experience-img'>

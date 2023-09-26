@@ -56,7 +56,7 @@ export const experience = [
     name: 'Backend Developer',
     place: 'Yalutec',
     time: 'Feb. 2022 - Current',
-    duration: '1 Year 2 Months',
+    duration: '1 Year 8 Months',
     tools: [
       <SiHtml5 key={'job3html5'} size={20} className='experience-icon' strokeWidth={0} />,
       <SiCss3 key={'job3css3'} size={20} className='experience-icon' strokeWidth={0} />,
