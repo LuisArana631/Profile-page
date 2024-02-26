@@ -6,4 +6,11 @@
   --bottombar-bg: #24292e;
   --bottombar-border: #1b1f23;
   --bottombar-hover-bg: #4f4f52;
+  --sidebar-bg: #24292e;
+  --sidebar-hover-bg: #1f2428;
+  --accent-color: #5696df;
+  --explorer-bg: #1f2428;
+  --explorer-border: #161a1d;
+  --explorer-hover-bg: #313241;
+  --explorer-heading-bg: #24292e;
 }

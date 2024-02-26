@@ -1,30 +1,27 @@
 "use client";
 
-import Layout from '@/components/Layout';
-import HeadComponent from '@/components/Head';
-import PropTypes from 'prop-types';
-import "@/styles/themes.css"
-import "@/styles/global.css"
-import { useEffect } from 'react';
+import Layout from "@/components/Layout";
+import HeadComponent from "@/components/Head";
+import PropTypes from "prop-types";
+import "@/styles/themes.css";
+import "@/styles/global.css";
 
-export default function RootLayout ({ children }) {
-  useEffect(() => {
-    if (localStorage.getItem('theme')) {
-      document.documentElement.setAttribute(
-        'data-theme', 
-        localStorage.getItem('theme')
-      )
-    }
-  }, [])
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
 
+export default function RootLayout({ children }) {
   return (
-    <Layout>
+    <html lang="en">
       <HeadComponent title="Luis Arana's Portfolio" />
-      {children}
-    </Layout>
-  )
+      <body className={inter.className}>
+        <Layout>
+          {children}
+        </Layout>
+      </body>
+    </html>
+  );
 }
 
 RootLayout.propTypes = {
-  children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired,
+};
