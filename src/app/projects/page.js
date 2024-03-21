@@ -1,4 +1,6 @@
+import ProjectCard from '@/components/ProjectCard'
 import styles from '@/app/projects/projects.module.css'
+import PROJECTS from '@/constants/projects'
 
 export const metadata = {
   title: "Projects | Luis Arana's Portfolio"
@@ -13,7 +15,20 @@ export default function Projects() {
         </div>
       </div>
       <div className={styles.container}>
-        
+        {
+          PROJECTS.map((project) => (
+            <div key={project.type}>
+              <h4>{project.type}</h4>
+              <div className={styles.cards}>
+                {
+                  project.items.map((item) => (
+                    <ProjectCard key={item.name} project={item} />
+                  ))
+                }
+              </div>
+            </div>
+          ))
+        }
       </div>
     </>
   )

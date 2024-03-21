@@ -22,3 +22,17 @@
 .user > div:last-child {
   border-right: none;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75vh;
+  position: relative;
+}
