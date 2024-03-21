@@ -3,6 +3,7 @@ import AccountIcon from "@/svg/Accounticon";
 import CodeIcon from "@/svg/Codeicon";
 import SettingsIcon from "@/svg/Settingsicon";
 import GithubIcon from "@/svg/Githubicon";
+import MailIcon from "@/svg/Messageicon";
 
 const ROUTES = [
   {
@@ -34,7 +35,13 @@ const ROUTES = [
     name: 'settings',
     ext: 'css',
     Icon: SettingsIcon,
-  }
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    ext: 'md',
+    Icon: MailIcon,
+  },
 ]
 
 module.exports = {
