@@ -1,6 +1,6 @@
-import ProjectCard from '@/components/ProjectCard'
 import styles from '@/app/projects/projects.module.css'
 import PROJECTS from '@/constants/projects'
+import ProjectCard from '@/components/ProjectCard'
 
 export const metadata = {
   title: "Projects | Luis Arana's Portfolio"

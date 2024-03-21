@@ -1,6 +1,6 @@
+import styles from "@/styles/ProjectCard.module.css"
 import LinkIcon from "@/svg/Linkicon";
 import GithubIcon from "@/svg/Githubicon";
-import styles from "@/styles/ProjectCard.module.css"
 import PropTypes from "prop-types";
 
 export default function ProjectCard ({ project }) {
