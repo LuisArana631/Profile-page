@@ -19,6 +19,10 @@ const EXTS_FILES = {
     name: 'YAML',
     icon: '/yml_icon.svg',
   },
+  md: {
+    name: 'Markdown',
+    icon: '/md_icon.svg',
+  }
 }
 
 module.exports = {
