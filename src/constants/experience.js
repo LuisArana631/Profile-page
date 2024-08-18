@@ -101,11 +101,11 @@ const EXPERIENCE = [
   },
   {
     id: 'job3',
-    name: 'Backend Developer',
+    name: 'Backend Developer Mid',
     place: 'Yalutec',
     description: 'Development of modules for chatbots',
-    time: 'Feb. 2022 - Current',
-    duration: '2 Years 1 Month',
+    time: 'Feb. 2022 - Jun. 2022',
+    duration: '2 Years 5 Months',
     tools: [
       {
         id: 'tool7',
@@ -141,6 +141,56 @@ const EXPERIENCE = [
         name: 'Serverless',
         className: 'serverless',
       },
+    ]
+  },
+  {
+    id: 'job4',
+    name: 'Fullstack Developer Mid',
+    place: 'Telus International',
+    description: 'Development of modules',
+    time: 'Jun. 2022 - Current',
+    duration: '3 Months',
+    tools: [
+      {
+        id: 'tool7',
+        name: 'HTML',
+        className: 'html',
+      },
+      {
+        id: 'tool8',
+        name: 'CSS',
+        className: 'css',
+      },
+      {
+        id: 'tool5',
+        name: 'Typescript',
+        className: 'typescript',
+      },
+      {
+        id: 'tool10',
+        name: 'Node JS',
+        className: 'node',
+      },
+      {
+        id: 'tool6',
+        name: 'Git',
+        className: 'git',
+      },
+      {
+        id: 'tool3',
+        name: 'AWS',
+        className: 'aws',
+      },
+      {
+        id: 'tool1',
+        name: 'Serverless',
+        className: 'serverless',
+      },
+      {
+        id: 'tool9',
+        name: 'React',
+        className: 'react',
+      }
     ]
   }
 ]

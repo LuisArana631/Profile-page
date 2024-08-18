@@ -51,6 +51,20 @@
   background: rgba(90, 89, 13, 0.25);
 }
 
+.typescript {
+  border: 0.1rem solid rgb(62, 129, 183);
+}
+.typescript:hover {
+  background: rgba(11, 35, 68, 0.25);
+}
+
+.react {
+  border: 0.1rem solid rgb(62, 129, 183);
+}
+.react:hover {
+  background: rgba(11, 35, 68, 0.25);
+}
+
 .git {
   border: 0.1rem solid rgb(140, 66, 182);
 }
