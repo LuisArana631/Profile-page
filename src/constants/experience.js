@@ -149,7 +149,7 @@ const EXPERIENCE = [
     place: 'Telus International',
     description: 'Development of modules',
     time: 'Jun. 2022 - Current',
-    duration: '3 Months',
+    duration: '1 Year 2 Months',
     tools: [
       {
         id: 'tool7',
