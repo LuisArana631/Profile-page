@@ -39,3 +39,20 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success {
+  margin-top: 0.75rem;
+  color: #4ec9b0;
+  font-size: 0.9rem;
+}
+
+.error {
+  margin-top: 0.75rem;
+  color: #f44747;
+  font-size: 0.9rem;
+}

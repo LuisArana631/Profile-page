@@ -104,7 +104,7 @@ const EXPERIENCE = [
     name: 'Backend Developer Mid',
     place: 'Yalutec',
     description: 'Development of modules for chatbots',
-    time: 'Feb. 2022 - Jun. 2022',
+    time: 'Feb. 2022 - Jun. 2024',
     duration: '2 Years 5 Months',
     tools: [
       {
@@ -148,7 +148,7 @@ const EXPERIENCE = [
     name: 'Fullstack Developer Mid',
     place: 'Telus International',
     description: 'Development of modules',
-    time: 'Jun. 2022 - Current',
+    time: 'Jun. 2024 - Current',
     duration: '1 Year 2 Months',
     tools: [
       {

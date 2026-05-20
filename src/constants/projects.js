@@ -48,6 +48,11 @@ const PROJECTS = [
     name: 'Servicios RCL',
     description: 'Página web para la empresa Servicios RCL',
     href: 'https://rclservices.netlify.app/',
+  },
+  {
+    name: 'Colecciones Web',
+    description: 'Página web para registrar la colección de stickers del album del mundial de fútbol',
+    href: 'https://colecciones-web.vercel.app/home/a10f89b7-89b9-42d3-b66d-58b964a1618b/c/dfe443c4-4d96-40b2-955b-2f6d18b66682',
   }
 ]
 

@@ -1,17 +1,34 @@
 "use client";
 
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import styles from "@/styles/ContactForm.module.css";
 
+const SERVICE_ID  = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY  = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
+const INITIAL = { name: "", email: "", subject: "", message: "" };
+
 const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [form, setForm] = useState(INITIAL);
+  const [status, setStatus] = useState(null); // 'loading' | 'success' | 'error'
+
+  const handleChange = (e) => {
+    setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
 
   const submitForm = async (e) => {
     e.preventDefault();
-    console.log("Pendiente");
+    setStatus("loading");
+
+    try {
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY);
+      setStatus("success");
+      setForm(INITIAL);
+    } catch {
+      setStatus("error");
+    }
   };
 
   return (
@@ -23,8 +40,8 @@ const ContactForm = () => {
             type="text"
             name="name"
             id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            value={form.name}
+            onChange={handleChange}
           />
         </div>
         <div>
@@ -33,20 +50,20 @@ const ContactForm = () => {
             type="email"
             name="email"
             id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={form.email}
+            onChange={handleChange}
             required
           />
         </div>
       </div>
       <div>
-        <label htmlFor="name">Subject</label>
+        <label htmlFor="subject">Subject</label>
         <input
           type="text"
           name="subject"
           id="subject"
-          value={subject}
-          onChange={(e) => setSubject(e.target.value)}
+          value={form.subject}
+          onChange={handleChange}
           required
         />
       </div>
@@ -56,12 +73,22 @@ const ContactForm = () => {
           name="message"
           id="message"
           rows="5"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          value={form.message}
+          onChange={handleChange}
           required
         ></textarea>
       </div>
-      <button type="submit">Submit</button>
+
+      <button type="submit" disabled={status === "loading"}>
+        {status === "loading" ? "Sending..." : "Submit"}
+      </button>
+
+      {status === "success" && (
+        <p className={styles.success}>Message sent! I&apos;ll get back to you soon.</p>
+      )}
+      {status === "error" && (
+        <p className={styles.error}>Something went wrong. Please try again.</p>
+      )}
     </form>
   );
 };

@@ -1,7 +1,6 @@
 import FilesIcon from "@/svg/Filesicon";
 import AccountIcon from "@/svg/Accounticon";
 import CodeIcon from "@/svg/Codeicon";
-import SettingsIcon from "@/svg/Settingsicon";
 import GithubIcon from "@/svg/Githubicon";
 import MailIcon from "@/svg/Messageicon";
 
@@ -29,12 +28,6 @@ const ROUTES = [
     name: 'projects',
     ext: 'yml',
     Icon: CodeIcon,
-  },
-  {
-    path: '/settings',
-    name: 'settings',
-    ext: 'css',
-    Icon: SettingsIcon,
   },
   {
     path: '/contact',
