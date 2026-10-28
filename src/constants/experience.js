@@ -145,11 +145,11 @@ const EXPERIENCE = [
   },
   {
     id: 'job4',
-    name: 'Fullstack Developer Mid',
+    name: 'Senior Fullstack Developer',
     place: 'Telus International',
     description: 'Development of modules',
     time: 'Jun. 2024 - Current',
-    duration: '1 Year 2 Months',
+    duration: '2 Year 6 Months',
     tools: [
       {
         id: 'tool7',
