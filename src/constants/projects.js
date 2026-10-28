@@ -53,6 +53,11 @@ const PROJECTS = [
     name: 'Colecciones Web',
     description: 'Página web para registrar la colección de stickers del album del mundial de fútbol',
     href: 'https://colecciones-web.vercel.app/demo',
+  },
+  {
+    name: 'Blush y Beso Boutique',
+    description: 'Página web para la empresa Blush y Beso Boutique',
+    href: 'https://blushybeso.com/',
   }
 ]
 
